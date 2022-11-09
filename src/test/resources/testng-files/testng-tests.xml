@@ -1,0 +1,10 @@
+<suite name="sanityTestSuite" verbose="1" preserve-order="true">
+    <test name="First Automation Test">
+        <classes>
+            <class name="com.envision.automation.tests.LoginTests"/>
+            <methods>
+                <include name="validateSuccessfulLoginToApplication"/>
+            </methods>
+        </classes>
+    </test>
+</suite>
